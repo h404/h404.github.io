@@ -1,0 +1,34 @@
+﻿body { 
+    padding-top: 75px; 
+    background-color:#F0F1F1;
+}
+
+.head-padding {
+   padding:5px;
+}
+
+.head-top-align {
+  margin-top:30px;
+  margin-bottom:30px;
+}
+.top_message {
+  padding:15px;
+}
+
+.title {
+   font-size:20px;
+}
+
+.animate-enter {
+	-webkit-transition: 1s linear all; /* Chrome */
+	transition: 1s linear all;
+	opacity: 0;
+}
+ 
+.animate-enter.animate-enter-active {
+	opacity: 1;
+}
+
+.navbar-header {
+  width:100%;
+}

@@ -1,0 +1,18 @@
+﻿<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6 col-md-4" ng-repeat="item in EventList" ng-animate="{enter: 'animate-enter', leave: 'animate-leave'}">
+        
+            <div class="thumbnail">
+                <img ng-src="{{item.src}}">
+                <div class="caption">
+                    <h3>{{item.name}} <small><span class='glyphicon glyphicon-calendar'></span>{{item.date}}</small> </h3><span class="badge">{{item.count}}</span>
+                    <p>
+                        {{item.description}}
+                    </p>
+                    <p><a href="#" ng-click="RegisterClicked(item)" class="btn btn-default" role="button">Register</a></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
